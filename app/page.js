@@ -43,11 +43,7 @@ export default function Home() {
           ))}
         </div>
 
-        <a href="/projects" className="btn-primary">
-          Voir mes projets
-        </a>
         <div className="page-container">
-          {/* autres sections */}
           <ProjectsSection />
         </div>
       </main>

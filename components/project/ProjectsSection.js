@@ -26,7 +26,7 @@ const projects = [
 
 export default function ProjectsSection() {
   return (
-    <section className="projects-section">
+    <section id="projets" className="projects-section">
       <h2 className="section-title">Mes projets</h2>
       <div className="project-grid">
         {projects.map((project, index) => (
