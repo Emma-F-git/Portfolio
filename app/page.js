@@ -1,3 +1,5 @@
+import ProjectsSection from "@/components/project/ProjectsSection";
+
 export default function Home() {
   return (
     <div className="page-container">
@@ -44,6 +46,10 @@ export default function Home() {
         <a href="/projects" className="btn-primary">
           Voir mes projets
         </a>
+        <div className="page-container">
+          {/* autres sections */}
+          <ProjectsSection />
+        </div>
       </main>
     </div>
   );
