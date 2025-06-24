@@ -1,28 +1,41 @@
 import ProjectsSection from "@/components/project/ProjectsSection";
+import Image from "next/image";
+import "../styles/profil.scss";
 
 export default function Home() {
   return (
     <div className="page-container">
       <main className="main-content">
-        <h1>Bonjour ! Je suis Emma Fortat Développeuse Web</h1>
+        <h1>Emma Fortat | Développeuse Web</h1>
 
         <section id="a-propos" className="a-propos-section">
           <h2 className="section-title">Venez découvrir mon profil</h2>
-          <p className="section-paragraph-1">
-            Passionnée par le développement web, j’ai eu l’occasion de découvrir
-            différentes technologies au fil de mon parcours, ce qui m’a permis
-            d'acquérir des bases et de développer des compétences techniques
-            variées.
-          </p>
-          <p className="section-paragraph-2">
-            Autonome mais aussi à l’aise en équipe, j’apprécie les
-            environnements collaboratifs et je suis toujours motivée par l’idée
-            de relever de nouveaux défis et d’apprendre en continu.
-          </p>
-          <p className="section-paragraph-3">
-            Je suis actuellement à la recherche d’une alternance pour poursuivre
-            une formation Bac+3 en Développement Full Stack.
-          </p>
+          <div className="profil-content">
+            <Image
+              src="/images/illustration_de_profil.webp"
+              alt="Illustration du profil Emma Fortat"
+              width={200}
+              height={200}
+              className="rounded-full profil-image"
+            />
+            <div className="profil-text">
+              <p className="section-paragraph-1">
+                Passionnée par le développement web, j’ai eu l’occasion de
+                découvrir différentes technologies au fil de mon parcours, ce
+                qui m’a permis d'acquérir des bases et de développer des
+                compétences techniques variées.
+              </p>
+              <p className="section-paragraph-2">
+                Autonome mais aussi à l’aise en équipe, j’apprécie les
+                environnements collaboratifs et je suis toujours motivée par
+                l’idée de relever de nouveaux défis et d’apprendre en continu.
+              </p>
+              <p className="section-paragraph-3">
+                Je suis actuellement à la recherche d’une alternance pour
+                poursuivre une formation Bac+3 en Développement Full Stack.
+              </p>
+            </div>
+          </div>
         </section>
 
         <h3 className="section-title">Compétences</h3>
