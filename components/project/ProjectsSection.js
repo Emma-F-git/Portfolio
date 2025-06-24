@@ -3,7 +3,7 @@ import "@/styles/project.scss";
 
 const projects = [
   {
-    title: "Site Sophie Bluel - photographe",
+    title: "Site Nina Carducci - photographe",
     description: "Débuggage et optimisation d'un site de photographe",
     skills: [
       "SEO",
@@ -12,8 +12,9 @@ const projects = [
       "Référencement",
       "Débuggage",
     ],
-    github: "https://github.com/Emma-F-git/Projet-3.git",
+    github: "https://github.com/Emma-F-git/Projet-4.git",
     demo: "X",
+    image: "/images/Nina_Carducci.PNG",
   },
   {
     title: "Application Kasa location immobilière",
@@ -21,6 +22,21 @@ const projects = [
       "Création d'une application web de location immobilière avec React",
     skills: ["React", "ReactRouter", "Javascript", "SCSS"],
     github: "https://github.com/Emma-F-git/Projet-5.git",
+    image: "/images/Kasa_Logo.svg",
+  },
+  {
+    title: "Site de notation de livres Mon Vieux Grimoire",
+    description: "Développer le back-end d'un site de notation de livres.",
+    skills: ["Express", "MongoDB", "Mongoose", "Node.js", "Green Code"],
+    github: "https://github.com/Emma-F-git/Projet-6.git",
+    image: "/images/Monvieuxgrimoire_logo.svg",
+  },
+  {
+    title: "Site Internet d'hébergements et d'activités",
+    description: "Intégrer l'interface du site avec HTML et CSS.",
+    skills: ["HTML", "CSS"],
+    github: "https://github.com/Emma-F-git/OpenclassroomsProject.git",
+    image: "/images/Booki_logo.svg",
   },
 ];
 
@@ -28,7 +44,7 @@ export default function ProjectsSection() {
   return (
     <section id="projets" className="projects-section">
       <h2 className="section-title">Mes projets</h2>
-      <div className="project-grid">
+      <div className="projects">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project} />
         ))}

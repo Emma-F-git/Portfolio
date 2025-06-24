@@ -6,9 +6,15 @@ export default function ProjectCard({
   skills,
   github,
   demo,
+  image,
 }) {
   return (
     <div className="project-card">
+      <img
+        src={image}
+        alt={`Illustration du projet ${title}`}
+        className="project-image"
+      />
       <h3 className="title">{title}</h3>
       <p className="description">{description}</p>
       <div className="skills">
