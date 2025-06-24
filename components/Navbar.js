@@ -17,6 +17,9 @@ export default function Navbar() {
         <a href="#projets" className="nav-link">
           Voir mes projets
         </a>
+        <Link href="/contact" className="nav-link">
+          Contact
+        </Link>
       </div>
     </nav>
   );

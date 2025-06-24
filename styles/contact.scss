@@ -1,0 +1,59 @@
+.contact-page {
+  max-width: 600px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: #f5f3ff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  font-family: "Segoe UI", sans-serif;
+  color: #4b0082;
+
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    label {
+      display: flex;
+      flex-direction: column;
+      font-weight: 500;
+
+      input,
+      textarea {
+        margin-top: 0.5rem;
+        padding: 0.75rem 1rem;
+        border: 1px solid #ddd;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+        background-color: #fff;
+      }
+
+      textarea {
+        resize: vertical;
+      }
+    }
+
+    button {
+      align-self: center;
+      background-color: #c084fc;
+      color: white;
+      font-weight: bold;
+      border: none;
+      padding: 0.75rem 2rem;
+      font-size: 1rem;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #a855f7;
+      }
+    }
+  }
+}
