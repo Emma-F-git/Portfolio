@@ -12,7 +12,7 @@ export default function Navbar() {
           Accueil
         </Link>
         <a href="#a-propos" className="nav-link">
-          À propos
+          Mon profil
         </a>
       </div>
     </nav>
