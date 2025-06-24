@@ -15,7 +15,7 @@ export default function Navbar() {
           Mon profil
         </a>
         <a href="#projets" className="nav-link">
-          Voir mes projets
+          Mes projets
         </a>
         <Link href="/contact" className="nav-link">
           Contact
