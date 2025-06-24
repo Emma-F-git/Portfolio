@@ -14,7 +14,7 @@ const projects = [
     ],
     github: "https://github.com/Emma-F-git/Projet-4.git",
     demo: "X",
-    image: "/images/Nina_Carducci.PNG",
+    image: "/images/Nina_Carducci.webp",
   },
   {
     title: "Application Kasa location immobilière",
@@ -22,21 +22,21 @@ const projects = [
       "Création d'une application web de location immobilière avec React",
     skills: ["React", "ReactRouter", "Javascript", "SCSS"],
     github: "https://github.com/Emma-F-git/Projet-5.git",
-    image: "/images/Kasa_Logo.svg",
+    image: "/images/Kasa_Logo.webp",
   },
   {
     title: "Site de notation de livres Mon Vieux Grimoire",
     description: "Développer le back-end d'un site de notation de livres.",
     skills: ["Express", "MongoDB", "Mongoose", "Node.js", "Green Code"],
     github: "https://github.com/Emma-F-git/Projet-6.git",
-    image: "/images/Monvieuxgrimoire_logo.svg",
+    image: "/images/Monvieuxgrimoire_logo.webp",
   },
   {
     title: "Site Internet d'hébergements et d'activités",
     description: "Intégrer l'interface du site avec HTML et CSS.",
     skills: ["HTML", "CSS"],
     github: "https://github.com/Emma-F-git/OpenclassroomsProject.git",
-    image: "/images/Booki_logo.svg",
+    image: "/images/Booki_logo.webp",
   },
 ];
 

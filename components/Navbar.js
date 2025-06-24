@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <Link href="/">
-        <img src="/images/Logo.png" alt="Logo EF" className="logo" />
+        <img src="/images/Logo.webp" alt="Logo EF" className="logo" />
       </Link>
       <div className="nav-links">
         <Link href="/" className="nav-link">
