@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 
 export default function ProjectCard({
   title,
@@ -23,11 +24,24 @@ export default function ProjectCard({
         ))}
       </div>
       <div className="links">
-        <a href={github} target="_blank" rel="noopener noreferrer">
-          Code
-        </a>
+        {github && (
+          <a
+            href={github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-link"
+          >
+            <FaGithub className="icon" />
+            Code
+          </a>
+        )}
         {demo && (
-          <a href={demo} target="_blank" rel="noopener noreferrer">
+          <a
+            href={demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-link"
+          >
             Démo
           </a>
         )}

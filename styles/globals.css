@@ -72,6 +72,12 @@ body {
   padding: 1rem;
 }
 
+.section-paragraph-1,
+.section-paragraph-2,
+.section-paragraph-3 {
+  margin: 1em;
+}
+
 @media (prefers-color-scheme: dark) {
   .page-container {
     background-color: #111;
