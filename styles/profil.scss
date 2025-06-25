@@ -1,3 +1,5 @@
+@import "theme";
+
 /* Section Mon profil */
 .section-title {
   font-size: 2rem;
@@ -37,7 +39,6 @@
     flex-shrink: 0;
     width: 200px;
     height: 200px;
-    padding-bottom: 1em;
   }
 
   .profil-text {

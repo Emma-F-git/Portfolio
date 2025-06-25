@@ -52,7 +52,7 @@ body {
 
 .btn-primary {
   display: inline-block;
-  background-color: #2563eb;
+  background-color: $color-background;
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
@@ -62,7 +62,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #1d4ed8;
+  background-color: $color-background;
 }
 
 @keyframes scaleIn {
@@ -80,6 +80,8 @@ h1 {
   animation: scaleIn 1s ease forwards;
   font-size: 32px;
   margin: 1em;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .skills {
@@ -90,13 +92,10 @@ h1 {
   justify-content: center;
 
   span {
-    background-color: #dbeafe;
-    color: #1e40af;
+    background-color: $color-background;
+    color: black;
     padding: 0.3rem 0.6rem;
     border-radius: 9999px;
     font-size: 0.875rem;
   }
-}
-
-@media (max-width: 767.98px) {
 }
