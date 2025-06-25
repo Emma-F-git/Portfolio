@@ -39,13 +39,13 @@ export default function Home() {
           </div>
         </section>
 
-        <div className="skills-and-formation">
+        <div className="skills-formation">
           <div className="skills-categories">
             <h3 className="section-title">Compétences</h3>
 
             <div className="skills-category">
               <h4>Frontend</h4>
-              <div className="skills-list">
+              <div className="skills">
                 {["HTML", "CSS", "JavaScript", "React", "Next.js"].map(
                   (skill) => (
                     <span key={skill} className="skill-badge">
@@ -58,7 +58,7 @@ export default function Home() {
 
             <div className="skills-category">
               <h4>Backend</h4>
-              <div className="skills-list">
+              <div className="skills">
                 {["Node.js", "Express"].map((skill) => (
                   <span key={skill} className="skill-badge">
                     {skill}
@@ -69,7 +69,7 @@ export default function Home() {
 
             <div className="skills-category">
               <h4>Outils</h4>
-              <div className="skills-list">
+              <div className="skills">
                 {["MongoDB", "API Rest", "Git et Github"].map((skill) => (
                   <span key={skill} className="skill-badge">
                     {skill}
