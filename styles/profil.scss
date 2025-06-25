@@ -11,7 +11,14 @@
 }
 
 .profil-text {
-  max-width: 1200px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  line-height: 1.6;
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
 }
 
 .a-propos-section {
@@ -21,6 +28,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 2em;
   }
 
   .profil-image {
