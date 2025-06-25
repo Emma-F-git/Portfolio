@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import mongoose from "mongoose";
 import Message from "@/models/Message";
 import dbConnect from "@/lib/mongodb";
 

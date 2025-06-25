@@ -22,7 +22,7 @@ const projects = [
     description:
       "Création d'une application web de location immobilière avec React",
     challenges:
-      "La gestion complexe des routes et des paramètres URL a nécessité l’utilisation avancée de React Router. J’ai structuré les routes et utilisé des hooks React pour gérer l’état et la navigation de façon fluide et intuitive.",
+      "La gestion des routes a nécessité l’utilisation de React Router. J’ai structuré les routes et utilisé des hooks React pour gérer l’état et la navigation de façon fluide et intuitive. De plus, j'ai utilisé les styles SCSS avec mixins et variables",
     skills: ["React", "ReactRouter", "Javascript", "SCSS"],
     github: "https://github.com/Emma-F-git/Projet-5.git",
     image: "/images/Kasa_Logo.webp",

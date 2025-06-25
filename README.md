@@ -1,6 +1,6 @@
 # Mon Portfolio
 
-Portfolio personnel réalisé avec Next.js + Tailwind CSS
+Portfolio personnel réalisé avec React, Next.js + Tailwind CSS
 
 ## 🔧 Technologies utilisées
 
@@ -10,8 +10,8 @@ Portfolio personnel réalisé avec Next.js + Tailwind CSS
 
 ## 📂 Pages
 
-- `/` Accueil + compétences
-- `/projects` Projets
+- `/` Accueil avec mon profil, mes compétences & formation, mes projets, liens vers les réseaux sociaux.
+- '/contact` Contact
 
 ## 🚀 Lancer localement
 
