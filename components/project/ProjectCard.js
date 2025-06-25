@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 export default function ProjectCard({
   title,
   description,
+  challenges,
   skills,
   github,
   demo,
@@ -18,6 +19,7 @@ export default function ProjectCard({
       />
       <h3 className="title">{title}</h3>
       <p className="description">{description}</p>
+      <p className="challenges">{challenges}</p>
       <div className="skills">
         {skills.map((skill, i) => (
           <span key={i}>{skill}</span>
