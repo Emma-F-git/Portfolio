@@ -8,18 +8,10 @@ export default function Navbar() {
         <img src="/images/Logo.webp" alt="Logo EF" className="logo" />
       </Link>
       <div className="nav-links">
-        <Link href="/" className="nav-link">
-          Accueil
-        </Link>
-        <a href="#a-propos" className="nav-link">
-          Mon profil
-        </a>
-        <a href="#projets" className="nav-link">
-          Mes projets
-        </a>
-        <Link href="/contact" className="nav-link">
-          Contact
-        </Link>
+        <Link href="/">Accueil</Link>
+        <Link href="/#a-propos">Mon profil</Link>
+        <Link href="/#projets">Mes projets</Link>
+        <Link href="/contact">Contact</Link>
       </div>
     </nav>
   );
