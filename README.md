@@ -5,7 +5,7 @@ Portfolio personnel réalisé avec React, Next.js + Tailwind CSS
 ## Technologies utilisées
 
 - React / Next.js
-- Tailwind CSS
+- Tailwind CSS / SCSS
 - Déploiement sur Vercel
 
 ## Pages
