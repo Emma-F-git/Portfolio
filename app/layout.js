@@ -9,6 +9,7 @@ export const metadata = {
     index: true,
     follow: true,
   },
+  charset: "UTF-8",
 };
 
 export default function RootLayout({ children }) {
