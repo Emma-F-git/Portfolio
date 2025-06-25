@@ -21,18 +21,19 @@ export default function Home() {
             />
             <div className="profil-text">
               <p className="section-paragraph-1">
-                Passionnée par le développement web, j’ai eu l’occasion de
-                découvrir différentes technologies au fil de mon parcours, ce
-                qui m’a permis d'acquérir des bases et de développer des
-                compétences techniques variées.
+                Passionnée par le développement web, j&apos;ai eu
+                l&apos;occasion de découvrir différentes technologies au fil de
+                mon parcours, ce qui m&apos;a permis d&apos;acquérir des bases
+                et de développer des compétences techniques variées.
               </p>
               <p className="section-paragraph-2">
-                Autonome mais aussi à l’aise en équipe, j’apprécie les
+                Autonome mais aussi à l&apos;aise en équipe, j&apos;apprécie les
                 environnements collaboratifs et je suis toujours motivée par
-                l’idée de relever de nouveaux défis et d’apprendre en continu.
+                l&apos;idée de relever de nouveaux défis et d&apos;apprendre en
+                continu.
               </p>
               <p className="section-paragraph-3">
-                Je suis actuellement à la recherche d’une alternance pour
+                Je suis actuellement à la recherche d&apos;une alternance pour
                 poursuivre une formation Bac+3 en Développement Full Stack.
               </p>
             </div>
