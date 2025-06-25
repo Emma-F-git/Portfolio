@@ -1,6 +1,7 @@
 import ProjectsSection from "@/components/project/ProjectsSection";
 import Image from "next/image";
 import "../styles/profil.scss";
+import "../styles/skillsformation.scss";
 
 export default function Home() {
   return (
@@ -38,22 +39,51 @@ export default function Home() {
           </div>
         </section>
 
-        <h3 className="section-title">Compétences</h3>
-        <div className="skills-list">
-          {[
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "React",
-            "Next.js",
-            "Tailwind",
-            "MongoDB",
-            "Git et Github",
-          ].map((skill) => (
-            <span key={skill} className="skill-badge">
-              {skill}
-            </span>
-          ))}
+        <div className="skills-and-formation">
+          <div className="skills-categories">
+            <h3 className="section-title">Compétences</h3>
+
+            <div className="skills-category">
+              <h4>Frontend</h4>
+              <div className="skills-list">
+                {["HTML", "CSS", "JavaScript", "React", "Next.js"].map(
+                  (skill) => (
+                    <span key={skill} className="skill-badge">
+                      {skill}
+                    </span>
+                  )
+                )}
+              </div>
+            </div>
+
+            <div className="skills-category">
+              <h4>Backend</h4>
+              <div className="skills-list">
+                {["Node.js", "Express"].map((skill) => (
+                  <span key={skill} className="skill-badge">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            <div className="skills-category">
+              <h4>Outils</h4>
+              <div className="skills-list">
+                {["MongoDB", "API Rest", "Git et Github"].map((skill) => (
+                  <span key={skill} className="skill-badge">
+                    {skill}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          <div className="formation">
+            <h3 className="section-title">Formation</h3>
+            <p>Bac+2 Développeur Web – OpenClassrooms (2025)</p>
+            <p>Bac+3 Bachelor Collaborateur Comptable - AFTEC (2018)</p>
+          </div>
         </div>
 
         <div className="page-container">

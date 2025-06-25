@@ -1,0 +1,40 @@
+.skills-and-formation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #f9fafb;
+}
+
+.skill-badge {
+  background-color: #dbeafe;
+  color: #1e40af;
+  padding: 0.5rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+}
+
+.skills-category {
+  flex: 1 1 250px;
+  min-width: 200px;
+  display: flex;
+}
+
+.skills-category h4 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-right: 2em;
+  width: 100px;
+}
+
+.formation {
+  min-width: 250px;
+}
+
+.formation p {
+  margin-bottom: 1em;
+  line-height: 1.5;
+}
