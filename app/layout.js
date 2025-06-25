@@ -3,7 +3,7 @@ import Footer from "@/components/Footer";
 import "../styles/globals.scss";
 
 export const metadata = {
-  title: "Mon portfolio",
+  title: "Emma Fortat - Développeuse Web",
   description: "Voici un aperçu de mes compétences de développeuse Web",
 };
 

@@ -7,13 +7,7 @@ const projects = [
     description: "Débuggage et optimisation d'un site de photographe",
     challenges:
       "Le site était lent à charger à cause d’images non optimisées et d’un JavaScript peu performant avec la présence de bug de fonctionnement. J’ai mis en place un lazy loading des images, ajouter les balises métas et optimisé les scripts pour réduire le temps de chargement, améliorant ainsi le SEO et l’accessibilité.",
-    skills: [
-      "SEO",
-      "Performance",
-      "Accessibilité",
-      "Référencement",
-      "Débuggage",
-    ],
+    skills: ["SEO", "Performance", "Accessibilité", "Référencement"],
     github: "https://github.com/Emma-F-git/Projet-4.git",
     image: "/images/Nina_Carducci.webp",
   },
