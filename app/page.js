@@ -83,7 +83,7 @@ export default function Home() {
           <div className="formation">
             <h3 className="section-title">Formation</h3>
             <p>Bac+2 Développeur Web – OpenClassrooms (2025)</p>
-            <p>Bac+3 Bachelor Collaborateur Comptable - AFTEC (2018)</p>
+            <p>Bac+3 Bachelor Collaborateur Comptable - IHECF (2018)</p>
           </div>
         </div>
 
