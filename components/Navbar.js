@@ -1,9 +1,10 @@
 import Link from "next/link";
+import "../styles/navbar.scss";
 import "../styles/globals.css";
 
 export default function Navbar() {
   return (
-    <nav className="navbar">
+    <nav className="mynavbar">
       <Link href="/">
         <img src="/images/Logo.webp" alt="Logo EF" className="logo" />
       </Link>
