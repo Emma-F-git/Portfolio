@@ -5,6 +5,10 @@ import "../styles/globals.scss";
 export const metadata = {
   title: "Emma Fortat - Développeuse Web",
   description: "Voici un aperçu de mes compétences de développeuse Web",
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({ children }) {
