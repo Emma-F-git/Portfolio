@@ -1,12 +1,13 @@
+@import "theme";
+
 .contact-page {
   max-width: 600px;
   margin: 4rem auto;
   padding: 2rem;
-  background-color: #f5f3ff;
+  background-color: $color-primary;
   border-radius: 1rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   font-family: "Segoe UI", sans-serif;
-  color: #4b0082;
 
   h1 {
     text-align: center;
@@ -41,7 +42,7 @@
 
     button {
       align-self: center;
-      background-color: #c084fc;
+      background-color: $color-primary;
       color: white;
       font-weight: bold;
       border: none;

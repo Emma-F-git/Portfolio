@@ -1,10 +1,13 @@
+@import "theme";
+
 .mynavbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0rem 2rem;
-  background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: $color-navbar-bg;
+  color: $color-text;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -12,7 +15,7 @@
 
 .nav-link {
   position: relative;
-  color: #333;
+  color: $color-text;
   font-weight: 500;
   text-decoration: none;
   padding-bottom: 6px;
@@ -41,6 +44,6 @@
 }
 
 .logo {
-  height: 8em;
+  height: 6em;
   object-fit: contain;
 }
