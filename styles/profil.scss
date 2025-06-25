@@ -1,4 +1,5 @@
 @use "theme";
+@use "mixins";
 
 /* Section Mon profil */
 .section-title {
@@ -25,11 +26,9 @@
 
 .a-propos-section {
   .profil-content {
-    display: flex;
+    @include mixins.flex-center;
     gap: 2rem;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     padding-bottom: 2em;
   }
 
