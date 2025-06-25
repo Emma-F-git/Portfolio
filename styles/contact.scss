@@ -1,10 +1,10 @@
-@import "theme";
+@use "theme";
 
 .contact-page {
   max-width: 600px;
   margin: 4rem auto;
   padding: 2rem;
-  background-color: $color-primary;
+  background-color: theme.$color-primary;
   border-radius: 1rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   font-family: "Segoe UI", sans-serif;
@@ -47,7 +47,7 @@
       transition: background-color 0.3s;
 
       &:hover {
-        background-color: $color-hover;
+        background-color: theme.$color-hover;
       }
     }
   }

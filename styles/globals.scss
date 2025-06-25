@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import "theme";
 
 :root {
   --background: #ffffff;
@@ -24,8 +23,8 @@ body {
   background: linear-gradient(
     160deg,
     #ffffff 0%,
-    $color-background 80%,
-    $color-background 100%
+    #ffa600c2 80%,
+    #ffa600c2 100%
   );
   color: #1f2937;
   min-height: 100vh;
@@ -56,7 +55,7 @@ body {
 
 .btn-primary {
   display: inline-block;
-  background-color: $color-background;
+  background-color: #ffa600c2;
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
@@ -66,7 +65,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: $color-background;
+  background-color: #ffa600c2;
 }
 
 @keyframes scaleIn {
@@ -96,7 +95,7 @@ h1 {
   justify-content: center;
 
   span {
-    background-color: $color-background;
+    background-color: #ffa600c2;
     color: black;
     padding: 0.3rem 0.6rem;
     border-radius: 9999px;

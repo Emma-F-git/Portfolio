@@ -1,4 +1,4 @@
-@import "theme";
+@use "theme";
 
 .projects-section {
   margin: auto;
@@ -73,7 +73,7 @@
         }
 
         &:hover {
-          background-color: $color-hover;
+          background-color: theme.$color-hover;
         }
       }
     }

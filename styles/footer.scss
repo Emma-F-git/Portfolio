@@ -1,4 +1,4 @@
-@import "theme";
+@use "theme";
 
 .footer {
   text-align: center;
@@ -28,8 +28,7 @@
       border-radius: 50%;
 
       &:hover {
-        color: $color-hover;
-        background-color: color-hover;
+        color: theme.$color-hover;
       }
     }
   }
