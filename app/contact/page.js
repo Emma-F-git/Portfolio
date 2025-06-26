@@ -10,8 +10,13 @@ export default function ContactPage() {
     message: "",
   });
 
+  const [statusMessage, setStatusMessage] = useState("");
+  const [statusType, setStatusType] = useState("");
+
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
+    setStatusMessage("");
+    setStatusType("");
   };
 
   const handleSubmit = async (e) => {
@@ -23,10 +28,12 @@ export default function ContactPage() {
     });
 
     if (res.ok) {
-      alert("Message envoyé !");
+      setStatusMessage("Message envoyé ! Merci !");
+      setStatusType("success");
       setForm({ name: "", firstname: "", email: "", message: "" });
     } else {
-      alert("Erreur lors de l'envoi.");
+      setStatusMessage("Erreur lors de l'envoi.");
+      setStatusType("error");
     }
   };
 
@@ -78,6 +85,15 @@ export default function ContactPage() {
         </label>
         <button type="submit">Envoyer</button>
       </form>
+      {statusMessage && (
+        <p
+          className={`message ${
+            statusType === "success" ? "success-message" : "error-message"
+          }`}
+        >
+          {statusMessage}
+        </p>
+      )}
     </div>
   );
 }
