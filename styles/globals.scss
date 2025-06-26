@@ -1,3 +1,6 @@
+@use "theme";
+@use "mixins";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,8 +17,8 @@ body {
   background: linear-gradient(
     160deg,
     #ffffff 0%,
-    #ffa600c2 80%,
-    #ffa600c2 100%
+    theme.$color-background 80%,
+    theme.$color-background 100%
   );
   color: #1f2937;
   min-height: 100vh;
@@ -24,10 +27,8 @@ body {
 
 /* Layout général */
 .page-container {
-  display: flex;
+  @include mixins.flex-center;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   padding: 1rem;
 }
 
@@ -39,7 +40,7 @@ body {
 
 .btn-primary {
   display: inline-block;
-  background-color: #ffa600c2;
+  background-color: theme.$color-background;
   color: white;
   padding: 0.75rem 1.5rem;
   border-radius: 0.5rem;
@@ -49,7 +50,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #ffa600c2;
+  background-color: theme.$color-background;
 }
 
 @keyframes scaleIn {
@@ -72,14 +73,13 @@ h1 {
 }
 
 .skills {
-  display: flex;
+  @include mixins.flex-center;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-bottom: 1rem;
-  justify-content: center;
 
   span {
-    background-color: #ffa600c2;
+    background-color: theme.$color-background;
     color: black;
     padding: 0.3rem 0.6rem;
     border-radius: 9999px;
