@@ -3,6 +3,7 @@ import "@/styles/project.scss";
 
 const projects = [
   {
+    id: "projet1",
     title: "Site Nina Carducci - photographe",
     description: "Débuggage et optimisation d'un site de photographe",
     challenges:
@@ -12,6 +13,7 @@ const projects = [
     image: "/images/Nina_Carducci.webp",
   },
   {
+    id: "projet2",
     title: "Application Kasa location immobilière",
     description:
       "Création d'une application web de location immobilière avec React",
@@ -22,6 +24,7 @@ const projects = [
     image: "/images/Kasa_Logo.webp",
   },
   {
+    id: "projet3",
     title: "Site de notation de livres Mon Vieux Grimoire",
     description: "Développer le back-end d'un site de notation de livres.",
     challenges:
@@ -31,6 +34,7 @@ const projects = [
     image: "/images/Monvieuxgrimoire_logo.webp",
   },
   {
+    id: "projet4",
     title: "Site Internet d'hébergements et d'activités",
     description: "Intégrer l'interface du site avec HTML et CSS.",
     challenges:
