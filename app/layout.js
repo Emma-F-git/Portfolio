@@ -10,6 +10,9 @@ export const metadata = {
     follow: true,
   },
   charset: "UTF-8",
+  icons: {
+    icon: "/favicon/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
