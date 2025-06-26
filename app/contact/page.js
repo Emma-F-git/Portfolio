@@ -35,8 +35,9 @@ export default function ContactPage() {
       <h1>Contactez-moi</h1>
       <form onSubmit={handleSubmit} className="contact-form">
         <label>
-          Prénom :
+          Prénom :{" "}
           <input
+            id="firstname"
             name="firstname"
             value={form.firstname}
             onChange={handleChange}
@@ -44,8 +45,9 @@ export default function ContactPage() {
           />
         </label>
         <label>
-          Nom :
+          Nom :{" "}
           <input
+            id="name"
             name="name"
             value={form.name}
             onChange={handleChange}
@@ -53,8 +55,9 @@ export default function ContactPage() {
           />
         </label>
         <label>
-          Email :
+          Email :{" "}
           <input
+            id="email"
             type="email"
             name="email"
             value={form.email}
@@ -63,8 +66,9 @@ export default function ContactPage() {
           />
         </label>
         <label>
-          Message :
+          Message :{" "}
           <textarea
+            id="message"
             name="message"
             rows="5"
             value={form.message}
