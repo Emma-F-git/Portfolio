@@ -33,8 +33,9 @@ export default function Home() {
                 continu.
               </p>
               <p className="section-paragraph-3">
-                Je suis actuellement à la recherche d&apos;une alternance pour
-                poursuivre une formation Bac+3 en Développement Full Stack.
+                Je suis actuellement à la recherche d&apos;une alternance sur
+                Lorient pour poursuivre une formation Bac+3 en Développement
+                Full Stack.
               </p>
             </div>
           </div>
