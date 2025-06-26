@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "../styles/globals.scss";
+import "../styles/tailwind.css";
 
 export const metadata = {
   title: "Emma Fortat - Développeuse Web",

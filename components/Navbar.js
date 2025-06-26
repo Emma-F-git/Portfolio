@@ -1,6 +1,7 @@
 import Link from "next/link";
 import "../styles/navbar.scss";
 import "../styles/globals.scss";
+import "../styles/tailwind.css";
 
 export default function Navbar() {
   return (
