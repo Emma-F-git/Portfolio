@@ -47,7 +47,7 @@ export default function ProjectsSection() {
       <h2 className="section-title">Mes projets</h2>
       <div className="projects">
         {projects.map((project, index) => (
-          <ProjectCard key={index} {...project} />
+          <ProjectCard key={project.id} {...project} />
         ))}
       </div>
     </section>
