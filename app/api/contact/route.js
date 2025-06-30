@@ -10,7 +10,7 @@ export async function POST(req) {
     const message = await Message.create(body);
 
     return NextResponse.json(
-      { message: "Message enregistré" },
+      { message: "Message enregistré", data: message },
       { status: 201 }
     );
   } catch (error) {
